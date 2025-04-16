@@ -119,9 +119,8 @@ pool.connect((err, client, release) => {
 // --- Middleware ---
 // Configure CORS for production
 const allowedOrigins = [
-    'YOUR_RENDER_FRONTEND_URL', // Placeholder for deployed frontend
-    'http://localhost:5173', // Keep for local testing if needed
-    // Add any other origins you might need during development
+    'https://clicker-game-app.onrender.com',
+    'http://localhost:5173',
 ];
 
 const corsOptions = {
